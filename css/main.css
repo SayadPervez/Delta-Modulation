@@ -10,6 +10,8 @@ html, body {
     padding: 0px;
     overflow-y: hidden;
     overflow-x: hidden;
+    background-image: url("./../subtle-background.png");
+    background-attachment: fixed;
 }
 
 .title {
