@@ -41,6 +41,30 @@ html, body {
   cursor: pointer;
 }
 
+#button1{
+  right : 17rem;
+}
+
+#button2{
+  right : 2rem;
+}
+
+.btn-primary{
+  position: absolute !important;
+  bottom : 2rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 1px !important;
+  border: 3px solid #007bff !important;
+  color: #007bff !important;
+  background-color: transparent !important;
+}
+
+.btn-primary:hover{
+  background-color: #007bff !important;
+  border: 3px solid black !important;
+  color: white !important;
+}
+
 @keyframes modalopen {
   from {
     opacity: 0;
