@@ -44,10 +44,10 @@ export class Line {
         }
 
         if (this.text) {
-            textSize(8 * Math.min(canvas.width / 1920, canvas.height / 1080));
+            textSize(9.5 * Math.min(canvas.width / 1920, canvas.height / 1080));
             textAlign(CENTER, BOTTOM);
             textStyle('bold');
-            fill("red");
+            fill("blue");
             text(this.text, x1 + (x2 - x1) / 2, y1 + (y2 - y1) / 2 - 5);
         }
     }

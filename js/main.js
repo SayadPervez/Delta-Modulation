@@ -192,7 +192,7 @@ function setup_demodulation() {
         val.x2 = windowWidth * 0.9;
         val.y2 = val.y1;
         console.log(val);
-    }, 0, 'Reconstructed Message Signal'));
+    }, 0, 'Reconstructed \n Message Signal'));
 }
 
 
