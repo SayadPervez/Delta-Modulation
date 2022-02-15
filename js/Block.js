@@ -40,13 +40,13 @@ class Block {
 
         const font_size = 25 * Math.min(windowWidth / 1920, windowHeight / 1080);
 
-        fill(10);
-        rect(cx, cy, cw, ch, 20);
+        fill("black");
+        rect(cx, cy, cw, ch, 12);
         if (this.name) {
             textSize(font_size);
             textStyle('bold');
             textAlign(CENTER, CENTER);
-            fill(255);
+            fill("white");
             text(this.name, cx + cw / 2, cy + ch / 2);
         }
     }
