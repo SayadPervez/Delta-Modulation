@@ -22,6 +22,7 @@ export class Adder {
         const y = this.cy;
         const r = this.cr;
 
+        fill("white");
         circle(x, y, 2 * r);
 
         // Draw the adder cross line
